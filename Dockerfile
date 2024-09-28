@@ -14,7 +14,7 @@ WORKDIR /usr/local/domain-api
 COPY . /usr/local/domain-api
 RUN pip3 install -r requirements.txt
 
-WORKDIR /usr/local/domain-api/catalystinnovation
+WORKDIR /usr/local/domain-api/innovation
 
 EXPOSE 8000 80 443
 
